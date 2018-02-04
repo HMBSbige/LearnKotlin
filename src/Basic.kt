@@ -1,4 +1,4 @@
-import kotlin.reflect.jvm.internal.impl.load.kotlin.JvmType
+package a.basic
 
 fun main(args: Array<String>) {
     var n:Int=30//定义后初始化
@@ -53,7 +53,7 @@ fun main(args: Array<String>) {
 }
 fun add(m:Int,n:Int):Int
 {
-    return m+n;
+    return m+n
 }
 fun square(m:Int):Unit
 {
